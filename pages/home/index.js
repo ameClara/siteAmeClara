@@ -228,7 +228,7 @@ const Footer = () => {
       <div className="flex sm:w-1/2 flex-row  ">
         <ul className="flex flex-row items-center  space-x-2">
           <li>
-            <a href="">
+            <a href="https://api.whatsapp.com/send?phone=5588994988784">
               <img className=" rounded-full  sm:w-12 p-2" src="./icon_zap.svg" alt=""/>
             </a>
           </li>
