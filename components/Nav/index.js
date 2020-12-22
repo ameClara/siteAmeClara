@@ -62,7 +62,7 @@ const Nav = ({fixed}) => {
               <li className="nav-item">
                 <a
                   className=" py-2 flex items-center text-xl  leading-snug  text-green2 hover:opacity-75"
-                  href="#faqs"
+                  href="#doe"
                 >
                  <span className="ml-2">DOE</span>
                 </a>
@@ -70,7 +70,7 @@ const Nav = ({fixed}) => {
               <li className="nav-item">
                 <a
                   className=" py-2 flex items-center text-xl leading-snug  text-green2 hover:opacity-75"
-                  href="#doe"
+                  href="#faqs"
                 >
                  <span className="ml-2">DÚVIDAS</span>
                 </a>
