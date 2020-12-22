@@ -224,22 +224,22 @@ const Faqs = () => {
 
 const Footer = () => {
   return(
-    <div id="footer" className="p-16 flex flex-row mt-10 space-x-4">
+    <div id="footer" className="p-16 flex flex-row sm:mt-10 space-x-4">
       <div className="flex sm:w-1/2 flex-row  ">
-        <ul className="flex flex-row items-center  space-x-2">
+        <ul className="flex flex-row items-center  sm:space-x-2">
           <li>
             <a href="https://api.whatsapp.com/send?phone=5588994988784">
-              <img className=" rounded-full  sm:w-12 p-2" src="./icon_zap.svg" alt=""/>
+              <img className=" rounded-full w-18 sm:w-12 p-2" src="./icon_zap.svg" alt=""/>
             </a>
           </li>
           <li>
           <a href="https://www.instagram.com/ameclara_/">
-              <img className=" rounded-full sm:w-16 p-2" src="./icon_insta.svg" alt=""/>
+              <img className=" rounded-full sm:w-16 w-22 p-2" src="./icon_insta.svg" alt=""/>
             </a>
           </li>
           <li>
-            <a href="">
-              <img className=" rounded-full sm:w-14 p-2" src="./icon_mail.svg" alt=""/>
+            <a  href="https://www.facebook.com/ameclara_-100671014890375/">
+              <img className=" rounded-full sm:w-16 w-24" src="./icon_face.png" alt=""/>
             </a>
           </li>
         </ul>
