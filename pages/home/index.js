@@ -224,7 +224,7 @@ const Faqs = () => {
 
 const Footer = () => {
   return(
-    <div className="p-16 flex flex-row mt-10 space-x-4">
+    <div id="footer" className="p-16 flex flex-row mt-10 space-x-4">
       <div className="flex sm:w-1/2 flex-row  ">
         <ul className="flex flex-row items-center  space-x-2">
           <li>

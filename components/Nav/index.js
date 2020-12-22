@@ -17,7 +17,7 @@ const Nav = ({fixed}) => {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full  flex justify-between lg:w-auto text-pink lg:static lg:block lg:justify-start">
           
-              <a className="cursor-pointer" href="#home">
+              <a className="cursor-pointer" href="/#">
                 <img className="w-6/12" src="./logo.svg" alt=""/>
               
               </a>
@@ -78,7 +78,7 @@ const Nav = ({fixed}) => {
               <li className="nav-item">
                 <a
                   className=" py-2 flex items-center text-xl leading-snug  text-green2 hover:opacity-75"
-                  href="#faqs"
+                  href="#footer"
                 >
                  <span className="ml-2">CONTATOS</span>
                 </a>
