@@ -250,10 +250,10 @@ const Dashboard = () => {
           <div className="flex flex-col shadow rounded-lg bg-white my-8 w-full p-4">
           <div className="flex flex-row w-full mb-8 "> 
               <h1 className="w-full font-bold">Dados Financeiros</h1>
-              <a className="flex flex-row mr-4" href="">
+              {/* <a className="flex flex-row mr-4" href="">
                 <img className="mx-2" src="./edit.svg" alt=""/>
                 Editar
-              </a>
+              </a> */}
             </div>
             <ul className="flex flex-col space-y-4">
               <span>Digite o valor</span>
@@ -289,10 +289,10 @@ const Dashboard = () => {
           <div className="flex flex-col shadow rounded-lg bg-white my-8 w-full p-4">
             <div className="flex flex-row w-full mb-8 "> 
               <h1 className="w-full font-bold">Perguntas e respostas</h1>
-                <a className="flex flex-row mr-4" href="">
+                {/* <a className="flex flex-row mr-4" href="">
                   <img className="mx-2" src="./edit.svg" alt=""/>
                   Editar
-                </a>
+                </a> */}
             </div>
             
               <ul className="flex flex-col space-y-4">
@@ -324,10 +324,10 @@ const Dashboard = () => {
           <div className="flex flex-col rounded-lg shadow bg-white my-8 w-full p-4">
             <div className="flex flex-row w-full "> 
               <h1 className="w-full font-bold">Posts</h1>
-              <a className="flex flex-row mr-4 " href="">
+              {/* <a className="flex flex-row mr-4 " href="">
                 <img className="mx-2" src="./edit.svg" alt=""/>
                 Editar
-              </a>
+              </a> */}
             </div>
          
 
@@ -351,10 +351,10 @@ const Dashboard = () => {
           <div className="flex flex-col rounded-lg shadow bg-white my-8 w-full p-4">
             <div className="flex flex-row w-full "> 
               <h1 className="w-full font-bold">Parceiros</h1>
-              <a className="flex flex-row mr-4 " href="">
+              {/* <a className="flex flex-row mr-4 " href="">
                 <img className="mx-2" src="./edit.svg" alt=""/>
                 Editar
-              </a>
+              </a> */}
             </div>
         
               <ul className='grid grid-cols-3 gap-4 m-2'>
@@ -382,10 +382,10 @@ const Dashboard = () => {
           <div className="flex flex-col shadow rounded-lg bg-white my-8 w-full p-4">
           <div className="flex flex-row w-full mb-8 "> 
               <h1 className="w-full font-bold">Seus dados</h1>
-              <a className="flex flex-row mr-4" href="">
+              {/* <a className="flex flex-row mr-4" href="">
                 <img className="mx-2" src="./edit.svg" alt=""/>
                 Editar
-              </a>
+              </a> */}
              
             </div>
             <div className="flex flex-col space-y-4">

@@ -33,12 +33,12 @@ const Nav = ({fixed}) => {
           </div>
           <div className="flex flex-row space-x-2">
             <div className="flex flex-row space-x-2">
-              <h1 className="text-blue2 font-bold">Objetivo: </h1>
-              <span className="text-pink font-bold"> R$ 12.000.000,00</span>
+              <h1 className="text-blue2 sm:flex hidden font-bold">Objetivo: </h1>
+              <span className="text-pink  sm:flex hidden  font-bold"> R$ 12.000.000,00</span>
             </div>
             <div className="flex flex-row space-x-2">
-              <h1 className="text-blue2 font-bold">Faltam: </h1>
-              <span className="text-pink font-bold">{Intl.NumberFormat('pt-BR', 
+              <h1 className="text-blue2 sm:flex hidden font-bold">Faltam: </h1>
+              <span className="text-pink sm:flex hidden font-bold">{Intl.NumberFormat('pt-BR', 
                 {style: 'currency', currency: 'BRL'}).format(12000000 - account)}</span>
             </div>
           </div>

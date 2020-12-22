@@ -48,7 +48,7 @@ const Photos = () => {
 
     </p>    
    
-    <ul className='grid grid-cols-3 gap-4 m-2'>
+    <ul className='sm:grid sm:grid-cols-3 sm:gap-4 sm:m-2'>
               {postsInst.map(post => (
                 <li className="" key={post._id}>
                 <InstagramEmbed
@@ -154,7 +154,7 @@ const Parceiros = () => {
     <div className="bg-white mx-8 mt-8  px-4 rounded-md shadow-md ">
      <h1 className="text-3xl font-bold mb-6 mt-4 text-center text-blue2">NOSSOS PARCEIROS</h1>  
  
-     <ul className='grid grid-cols-3 gap-4 m-2'>
+     <ul className='sm:grid sm:grid-cols-3 sm:gap-4 sm:m-2'>
         {postsParceiro.map(post => (
           <li className="flex flex-col   items-center justify-center space-y-4" key={post._id}>
           <img className="" src={post.img_url} alt=""/>
